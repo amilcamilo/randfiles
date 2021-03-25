@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=loggle_stock_market
-#SBATCH --cpus-per-task=30
+#SBATCH --cpus-per-task=10
 #SBATCH --mem-per-cpu=10G
 #SBATCH --nodes=1
 #SBATCH --mail-type=ALL
